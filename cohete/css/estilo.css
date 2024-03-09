@@ -1,0 +1,325 @@
+body{
+    background-color: #151845; /* Establece el color de fondo para el cuerpo del documento */
+    padding: 0; /* Elimina el relleno interno del cuerpo */
+    margin: 0; /* Elimina los márgenes externos del cuerpo */
+}
+.container{
+    height: 370px; /* Establece la altura del contenedor */
+    width: 370px; /* Establece el ancho del contenedor */
+    position: absolute; /* Establece la posición del contenedor */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    left: 0; /* Establece el lado izquierdo del contenedor */
+    right: 0; /* Establece el lado derecho del contenedor */
+    top: 0; /* Establece la parte superior del contenedor */
+    bottom: 0; /* Establece la parte inferior del contenedor */
+}
+.luna{
+    background-color: #39beff; /* Establece el color de fondo de la luna */
+    height: 170px; /* Establece la altura de la luna */
+    width: 170px; /* Establece el ancho de la luna */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma de la luna */
+    position: absolute; /* Establece la posición de la luna */
+    margin: auto; /* Centra la luna horizontalmente */
+    left: 0; /* Establece el lado izquierdo de la luna */
+    right: 0; /* Establece el lado derecho de la luna */
+    top: 0; /* Establece la parte superior de la luna */
+    bottom: 0; /* Establece la parte inferior de la luna */
+    overflow: hidden; /* Controla el desbordamiento de los elementos hijos */
+}
+.crater{
+    background-color: #31b4ff; /* Establece el color de fondo del cráter */
+    height: 30px; /* Establece la altura del cráter */
+    width: 30px; /* Establece el ancho del cráter */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma del cráter */
+    position: relative; /* Establece la posición relativa del cráter */
+}
+.crater:before{
+    content: ""; /* Agrega contenido generado antes del contenido del cráter */
+    position: absolute; /* Establece la posición absoluta del contenido generado */
+    height: 25px; /* Establece la altura del contenido generado */
+    width: 25px; /* Establece el ancho del contenido generado */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma del contenido generado */
+    box-shadow: -5px 0 0 2px #1ca4f9; /* Agrega una sombra al contenido generado */
+    top: 2px; /* Establece la posición superior del contenido generado */
+    left: 7px; /* Establece la posición izquierda del contenido generado */
+}
+.crater1{
+    top: 27px; /* Establece la posición superior del cráter 1 */
+    left: 90px; /* Establece la posición izquierda del cráter 1 */
+    transform: scale(0.9); /* Escala el tamaño del cráter 1 */
+}
+.crater2{
+    bottom: 15px; /* Establece la posición inferior del cráter 2 */
+    left: 61px; /* Establece la posición izquierda del cráter 2 */
+    transform: scale(0.6); /* Escala el tamaño del cráter 2 */
+}
+.crater3{
+    left: 15px; /* Establece la posición izquierda del cráter 3 */
+    transform: scale(0.75); /* Escala el tamaño del cráter 3 */
+}
+.crater4{
+    left: 107px; /* Establece la posición izquierda del cráter 4 */
+    top: 32px; /* Establece la posición superior del cráter 4 */
+    transform: scale(1.18); /* Escala el tamaño del cráter 4 */
+}
+.crater5{
+    left: 33px; /* Establece la posición izquierda del cráter 5 */
+    bottom: 4px; /* Establece la posición inferior del cráter 5 */
+    transform: scale(0.65); /* Escala el tamaño del cráter 5 */
+}
+.sombra{
+    height: 190px; /* Establece la altura de la sombra */
+    width: 190px; /* Establece el ancho de la sombra */
+    box-shadow: 21px 0 0 5px rgba(0,0,0,0.15); /* Agrega una sombra a la sombra */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma de la sombra */
+    position: relative; /* Establece la posición relativa de la sombra */
+    bottom: 157.5px; /* Establece la posición inferior de la sombra */
+    right: 46px; /* Establece la posición derecha de la sombra */
+}
+.eye{
+    height: 12px; /* Establece la altura del ojo */
+    width: 12px; /* Establece el ancho del ojo */
+    background-color: #161616; /* Establece el color de fondo del ojo */
+    position: relative; /* Establece la posición relativa del ojo */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma del ojo */
+}
+.eyel{
+    bottom: 255px; /* Establece la posición inferior del ojo izquierdo */
+    left: 59px; /* Establece la posición izquierda del ojo izquierdo */
+}
+.eye2{
+    bottom: 267px; /* Establece la posición inferior del ojo derecho */
+    left: 101px; /* Establece la posición izquierda del ojo derecho */
+}
+.montaña{
+    height: 7px; /* Establece la altura de la montaña */
+    width: 13px; /* Establece el ancho de la montaña */
+    border: 3px solid #161616; /* Establece un borde sólido para la montaña */
+    position: relative; /* Establece la posición relativa de la montaña */
+    bottom: 265px; /* Establece la posición inferior de la montaña */
+    left: 78px; /* Establece la posición izquierda de la montaña */
+    border-top: none; /* Elimina el borde superior de la montaña */
+    border-radius: 0 0 10px 10px; 
+}
+.blush{
+    height: 7.5px; /* Establece la altura del rubor */
+    width: 7.5px; /* Establece el ancho del rubor */
+    background-color: #1ca4f9; /* Establece el color de fondo del rubor */
+    position: relative; /* Establece la posición relativa del rubor */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma del rubor */
+}
+.blush1{
+    bottom: 273px; /* Establece la posición inferior del rubor 1 */
+    left: 50px; /* Establece la posición izquierda del rubor 1 */
+}
+.blush2{
+    bottom: 281px; /* Establece la posición inferior del rubor 2 */
+    left: 115px; /* Establece la posición izquierda del rubor 2 */
+}
+.orbita{
+    height: 280px; /* Establece la altura de la órbita */
+    width: 280px; /* Establece el ancho de la órbita */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma de la órbita */
+    position: absolute; /* Establece la posición absoluta de la órbita */
+    margin: auto; /* Centra la órbita horizontalmente */
+    left: 0; /* Establece el lado izquierdo de la órbita */
+    right: 0; /* Establece el lado derecho de la órbita */
+    top: 0; /* Establece la parte superior de la órbita */
+    bottom: 0; /* Establece la parte inferior de la órbita */
+    animation: spin 5s infinite linear; /* Aplica una animación de rotación a la órbita */
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg); /* Establece una rotación completa de 360 grados */
+    }
+}
+.rocket{
+    background-color: #fafcf7; /* Establece el color de fondo del cohete */
+    height: 50px; /* Establece la altura del cohete */
+    width: 25px; /* Establece el ancho del cohete */
+    border-radius: 50% 50% 0 0; /* Aplica bordes redondeados solo en la parte superior del cohete */
+    position: relative; /* Establece la posición relativa del cohete */
+    left: -11px; /* Establece la posición izquierda del cohete */
+    top: 115px; /* Establece la posición superior del cohete */
+}
+.rocket:before{
+    position: absolute; /* Establece la posición absoluta del contenido generado */
+    content: ""; /* Agrega contenido generado antes del contenido del cohete */
+    background-color: #39beff; /* Establece el color de fondo del contenido generado */
+    height: 20px; /* Establece la altura del contenido generado */
+    width: 55px; /* Establece el ancho del contenido generado */
+    z-index: -1; /* Establece la posición z del contenido generado detrás del cohete */
+    border-radius: 50% 50% 0 0; /* Aplica bordes redondeados solo en la parte superior del contenido generado */
+    right: -15px; /* Establece la posición derecha del contenido generado */
+    bottom: 0; /* Establece la posición inferior del contenido generado */
+}
+.rocket:after{
+    position: absolute; /* Establece la posición absoluta del contenido generado */
+    content: ""; /* Agrega contenido generado después del contenido del cohete */
+    background-color: #39beff; /* Establece el color de fondo del contenido generado */
+    height: 4px; /* Establece la altura del contenido generado */
+    width: 15px; /* Establece el ancho del contenido generado */
+    border-radius: 0 0 2px 2px; /* Aplica bordes redondeados solo en la parte inferior del contenido generado */
+    bottom: -4px; /* Establece la posición inferior del contenido generado */
+    left: 4.3px; /* Establece la posición izquierda del contenido generado */
+}
+.ventana{
+    height: 10px; /* Establece la altura de la ventana */
+    width: 10px; /* Establece el ancho de la ventana */
+    background-color: #151845; /* Establece el color de fondo de la ventana */
+    border: 2px solid #b8d2ec; /* Establece un borde sólido para la ventana */
+    border-radius: 50%; /* Aplica un borde redondeado para hacer la forma de la ventana */
+    position: relative; /* Establece la posición relativa de la ventana */
+    top: 17px; /* Establece la posición superior de la ventana */
+    left: 5px; /* Establece la posición izquierda de la ventana */
+}
+
+/* 
+
+.crater{
+    background-color: #31b4ff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.crater:before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: -5px 0 0 2px #1ca4f9;
+    top: 2px;
+    left: 7px;
+}
+.crater1{
+    top: 27px;
+    left: 90px;
+    transform: scale(0.9);
+}
+.crater2{
+    bottom: 15px;
+    left: 61px;
+    transform: scale(0.6);
+}
+.crater3{
+    left: 15px;
+    transform: scale(0.75);
+}
+.crater4{
+    left: 107px;
+    top: 32px;
+    transform: scale(1.18);
+}
+.crater5{
+    left: 33px;
+    bottom: 4px;
+    transform: scale(0.65);
+}
+.sombra{
+    height: 190px;
+    width: 190px;
+    box-shadow: 21px 0 0 5px rgba(0,0,0,0.15);
+    border-radius: 50%;
+    position: relative;
+    bottom: 157.5px;
+    right: 46px;
+}
+.eye{
+    height: 12px;
+    width: 12px;
+    background-color: #161616;
+    position: relative;
+    border-radius: 50%;
+}
+.eyel{
+    bottom: 255px;
+    left: 59px;
+}
+.eye2{
+    bottom: 267px;
+    left: 101px;
+}
+.montaña{
+    height: 5px;
+    width: 10px;
+    border: 3px solid #161616;
+    position: relative;
+    bottom: 262px;
+    left: 79px;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+.blush{
+    height: 7.5px;
+    width: 7.5px;
+    background-color: #1ca4f9;
+    position: relative;
+    border-radius: 50%;
+}
+.blush1{
+    bottom: 273px;
+    left: 50px;
+}
+.blush2{
+    bottom: 281px;
+    left: 115px;
+}
+.orbita{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    animation: spin 5s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.rocket{
+    background-color: #fafcf7;
+    height: 50px;
+    width: 25px;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    left: -11px;
+    top: 115px;
+}
+.rocket:before{
+    position: absolute;
+    content: "";
+    background-color: #39beff;
+    height: 20px;
+    width: 55px;
+    z-index: -1;
+    border-radius: 50% 50% 0 0;
+    right: -15px;
+    bottom: 0;
+}
+.rocket:after{
+    position: absolute;
+    content: "";
+    background-color: #39beff;
+    height: 4px;
+    width: 15px;
+    border-radius: 0 0 2px 2px;
+    bottom: -4px;
+    left: 4.3px;
+}
+.ventana{
+    height: 10px;
+    width: 10px;
+    background-color: #151845;
+    border: 2px solid #b8d2ec;
+    border-radius: 50%;
+    position: relative;
+    top: 17px;
+    left: 5px;
+} */
