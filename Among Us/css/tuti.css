@@ -1,0 +1,190 @@
+/* Estilos generales para los pseudoelementos ::before y ::after */
+::before,
+::after{
+    box-sizing: border-box; /* Define el modelo de caja */
+    padding: 0; /* Elimina el relleno */
+    margin: 0; /* Elimina el margen */
+
+}
+/* Estilos generales para el cuerpo de la página */
+body{
+    background-color: pink;/*Establece el color de fondo*/
+
+}
+/* Estilos para un iframe */
+iframe{
+    position: fixed; /* Establece la posición fija */
+    min-width: 100%; /* Establece el ancho mínimo */
+    min-height: 100%; /* Establece la altura mínima */
+
+    top: 50%; /* Ubica en la mitad superior */
+    left: 50%; /* Ubica en la mitad izquierda */
+    transform: translateX(-50%) translateY(-50%); /* Centra horizontal y verticalmente */
+    z-index: -1;  /* Establece la posición z en el fondo */
+}
+/* Estilos para la clase "jugador" */
+.jugador{
+     /* Estilos de apariencia */
+    background-color: rgb(228, 228, 27);
+    height: 200px;
+    width: 140px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 10px solid #000000;
+    border-bottom: none;
+    border-radius: 60px 80px 0 0;
+    z-index: 1;
+
+}
+
+/* Pseudoelemento ::after dentro de la clase "jugador" */
+.jugador::after{
+    /* Estilos de apariencia */
+    content: "";/*Cadena vacia*/
+    position: absolute;
+    width: 92%;
+    height: 85%;
+    background-color: yellow;
+    top: 2.5px;
+    left: 6px;
+    border-radius: 58% 70% 28% 42% / 28% 56% 88% 89%;
+    /* Para la esquina superior izquierda, el radio horizontal es del 58% 
+    y el radio vertical es del 28%. */
+/* Para la esquina superior derecha, el radio horizontal es del 70% 
+y el radio vertical es del 56%. */
+/* Para la esquina inferior derecha, el radio horizontal es del 28% 
+y el radio vertical es del 88%. */
+/* Para la esquina inferior izquierda, el radio horizontal es del 42% 
+y el radio vertical es del 89%. */
+
+}
+/* Estilos para la clase "piernas" */
+.piernas{
+     /* Estilos de apariencia */
+    height: 40px;
+    width: 45px;
+    background-color: rgb(228, 228, 27);
+    position: absolute;
+    bottom: -50px;
+    left: -10px;
+    border: 10px solid #000000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+    z-index: 1;
+
+}
+/* Pseudoelemento ::before dentro de la clase "piernas" */
+.piernas::before{
+    /* Estilos de apariencia */
+    content: "";/*Cadena vacia*/
+    height: 50px;
+    width: 60px;
+    background-color: rgb(228, 228, 27);
+    position: absolute;
+    right: -233%;
+    border: 10px solid #000000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+
+}
+/* Pseudoelemento ::after dentro de la clase "piernas" */
+.piernas::after{
+     /* Estilos de apariencia */
+    content: "";/*Cadena vacia*/
+    height: 10px;
+    width: 70px;
+    background-color: #000000;
+    position: absolute;
+    top: -10px;
+    left: 45px;
+    border-radius: 0 0 10px 0;
+
+}
+/* Estilos para la clase "mochila" */
+.mochila{
+     /* Estilos de apariencia */
+    height: 120px;
+    width: 35px;
+    background-color: yellow;
+    border: 10px solid black;
+    position: absolute;
+    left: -55px;
+    top: 65px;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+
+}
+/*Pseudoelemento ::before dentro de la clase "mochila"*/
+.mochila::before{
+    /*Estilos de apariencia*/
+    content: "";/*Cadena vacia*/
+    position: absolute;
+    height: 100px;
+    width: 36px;
+    background-color: rgb(228, 228, 27);
+    bottom: -0.5px;
+    left: -0.5px;
+    border-radius: 12px 0 0 8px;
+
+}
+
+/* Estilos para la clase "lente" */
+.lente{
+    /* Estilos de apariencia */
+    height: 55px;
+    width: 110px;
+    background-color: aqua;
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    border-radius: 25px 50px 30px 30px;
+    border: 10px solid black;
+
+}
+
+/* Pseudoelemento ::before dentro de la clase "lente" */
+.lente::before{
+    /* Estilos de apariencia */
+    content: "";/*Cadena vacia*/
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    background-color: #71d4ec;
+    border-radius: 0 28px 3px 30px;
+    right: 0;
+    top: 0;
+
+}
+
+/* Pseudoelemento ::after dentro de la clase "lente" */
+.lente::after{
+    /* Estilos de apariencia */
+    content: "";/*Cadena vacia*/
+    position: absolute;
+    width: 45%;
+    height: 22%;
+    background-color: white;
+    left: 50px;
+    top: 5px;
+    border-radius: 10px;
+    transform: rotate(6deg);
+
+}
+/* Estilos para la clase "sombra" */
+.sombra{
+    /* Estilos de apariencia */
+    height: 40px;
+    width: 210px;
+    background-color: rgba(153, 130, 0, 0.2);
+    position: absolute;
+    bottom: -60px;
+    right: -40px;
+    border-radius: 50%;
+    z-index: 0;
+
+}
