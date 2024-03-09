@@ -1,0 +1,31 @@
+body{ /* Establece el color de fondo del cuerpo del documento  */
+    background-color: black;/*Esto significa que el fondo de la página será negro. */
+}
+
+h1{/* Aplica estilos al elemento de encabezado de nivel 1 (<h1>). */
+    text-align: center;/* center; centra el texto. */
+    font-family: Comic Sans Ms; /* establece la fuente del texto como "Comic Sans Ms". */
+}
+
+.colorText{/* Define una regla de estilo para la clase CSS "colorText". */
+    color: white;/* establece el color del texto como blanco. */
+}
+
+.colorText{/* Define otra regla de estilo para la clase CSS "colorText". */
+    color: aliceblue;/* cambia el color del texto a "aliceblue". */
+}
+
+img{/* Establece el ancho y la altura de todas las imágenes en un 50% de su tamaño original. */
+    width: 50%;/* establece el ancho de la imagen al 50% del tamaño original. */
+    height: 50%;/* establece la altura de la imagen al 50% del tamaño original. */
+}
+
+pre{/* Aplica estilos a los elementos de texto preformateado (<pre>). */
+    color: #ffffff;/* establece el color del texto como blanco (#ffffff en formato hexadecimal). */
+    text-align: center;/* centra el texto. */
+    font-family: Comic Sans Ms; /* establece la fuente del texto como "Comic Sans Ms". */ 
+}
+
+.centrado{ /* Define una regla de estilo para la clase CSS "centrado". */
+    text-align: center;/* centra el texto dentro de los elementos a los que se aplique esta clase. */
+}   
