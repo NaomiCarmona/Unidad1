@@ -1,0 +1,76 @@
+<!DOCTYPE html><!--Versión HTML5-->
+<html lang="en"><!--Define el elemento raíz y especifica el idioma de la página como inglés ("en")-->
+<head><!--Inicio del encabezado principal-->
+    <meta charset="UTF-8"/><!--Este meta-tag especifica la codificación de caracteres del documento como UTF-8,
+        que es una codificación de caracteres universalmente aceptada. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Este meta-tag establece la escala
+        inicial de la página y el ancho de la ventana gráfica para el dispositivo, lo que es importante para la
+        visualización adecuada en dispositivos móviles. -->
+    <title>Image cool</title><!--Define el título de la página como "Image cool",
+        que se mostrará en la barra de título del navegador. -->
+    <link rel="icon" href="../IMG/iron.jpeg"/><!--Esta línea vincula un icono de favicon a la página web.
+        El atributo `href` especifica la ruta del archivo de imagen que se utilizará como favicon,
+        en este caso, "../IMG/iron.jpeg". El favicon es el pequeño ícono que se muestra en la pestaña del
+        navegador. -->
+    <link rel="stylesheet" href="../CSS/forma.css"/><!--Esta línea vincula un archivo de estilo CSS externo
+        a la página HTML. El atributo `href` especifica la ruta del archivo de estilo, en este caso,
+        "../CSS/forma.css". El archivo de estilo contiene reglas CSS que se aplicarán al contenido de la
+        página para darle estilo y formato. -->
+ 
+</head><!--Cierre del encabezadp principal-->
+
+<body><!--Inicia la sección del cuerpo del documento HTML, que contiene el contenido visible de la página. -->
+    <img src="./img/3 (1).jpg" alt="Imagen no encontrada" usemap="#rectangle" /><!--Inserta una imagen en la página
+        HTML. El atributo `src` especifica la ruta de la imagen, en este caso, "./img/3.jpg". El atributo `alt`
+        proporciona un texto alternativo que se mostrará si la imagen no se puede cargar. El atributo `usemap`
+        especifica el mapa de imagen que se utilizará para segmentar la imagen en áreas interactivas. -->
+
+
+    <!-- usemap lo ocupamos para manipular la imagen para segmentar-->
+    <map name="rectangle"><!--Define un mapa de imagen llamado "rectangle". Este mapa de imagen se utiliza
+        para especificar áreas interactivas en la imagen anteriormente mencionada. -->
+        <area 
+        shape="rect"
+        coords="34, 44, 270, 350"
+        href="pages/1.html"
+        name="rectangle"/><!--Define una zona interactiva dentro del mapa de imagen. 
+            Cada `<area>` tiene atributos como `shape`, `coords`, `href`, y `name`, que especifican la forma,
+            las coordenadas, el enlace y el nombre de la zona respectivamente. -->
+
+        <area 
+        shape="circle" 
+        coords="377, 300, 44" 
+        href="pages/2.html" 
+        name="rectangle" />
+
+        <area 
+        shape="rect" 
+        coords="333, 248, 290, 172" 
+        href="pages/3.html" 
+        name="reactangle" />
+    </map>
+
+    <img src="./img/2 (1).jpg" alt="Imagen no hallada" usemap="#poly" /><!--Inserta otra imagen en la página HTML,
+        con un atributo `usemap` que especifica el mapa de imagen "poly" para segmentar esta imagen también en
+        áreas interactivas. -->
+
+    <map name="poly"><!--Define un mapa de imagen llamado "poly" para la segunda imagen. -->
+        <area
+        shape="poly"
+        coords="165,118,154,119,140,124,132,132,129,145,119,151,108,
+        157,102,167,97,175,90,186,84,193,77,202,66,211,57,221,52,231
+        ,47,241,44,250,42,261,41,270,39,280,39,288,39,298,41,307,40,
+        317,39,326,42,334,46,341,53,346,62,349,70,351,77,352,87,351,
+        96,349,106,346,114,342,120,335,126,336,132,332,139,327,146,
+        321,149,314,154,308,159,299,166,297,171,292,174,284,175,277,
+        178,271,186,268,191,263,195,253,199,243,201,234,204,225,205,
+        215,204,204,200,195,203,184,202,175,202,164,200,155,194,147,
+        188,140,187,133,184,125,176,118" 
+        href="pages/4.html"
+        name="poly"
+        /><!--Define una zona interactiva dentro del segundo mapa de imagen. Esta área es poligonal y se
+            especifican sus coordenadas y atributos como el enlace y el nombre de la zona. -->
+    </map>
+    
+</body><!--Cierra la sección del cuerpo del documento HTML. -->
+</html><!--Cierra el elemento raíz del documento HTML. -->

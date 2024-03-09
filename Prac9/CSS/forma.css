@@ -1,0 +1,23 @@
+/* .color{
+    background-color: black;
+    color: white; 
+    margin: 0%;
+    padding: 0%;
+}
+.color1{
+    background-color: pink;
+    color: white;
+}
+.color2{
+    background-color: aqua;
+    color: white;
+} */
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.center{
+    text-align: center;
+}
