@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>El GfeDGfe's</title>
+	</head>
+
+	<body>
+		<H1>Practica n3</H1>
+		<H1 style = "text-aling: center; color: white; background: black">Se me antojo un pan</H1>
+		<p>con un cafecito :3</p>
+		
+		<H2>Carlos Rivera</H2>
+		<H2 style = "text-aling: left; color: black; background: pink">Carlos Rivera</H2>
+		<p>El bombon de México</p>
+		
+		<img src = "guapo.png"
+		title = "Ño mijo"
+		style = "width: 100% ; heigth: 50% />
+		<br/>
+
+		<H1>OTRAS VIDAS: Carlos Rivera</H1>
+		<p>
+		<center>
+		No sé que es lo que hice en otras vidas
+		A quien tuve que salvar para que me salvarás tú
+		Tal vez curé la guerra mi heridas 
+		Para que ahora en tus brazos encontrara la quietud
+		<center>
+		</p>
+
+		<H1>OTRAS VIDAS DEL GUAPISÍMO CARLOS RIVERA</H1>
+		<p>
+		<center>
+		No sé si yo te encontre
+		O si me encontraste tú
+		</center>
+		</p>
+
+	</body>
+</html> 
