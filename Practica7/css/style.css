@@ -1,0 +1,65 @@
+.ColorTransparente{ /* Define una clase CSS llamada ColorTransparente. */
+    width: 420px; /* Define una clase CSS llamada ColorTransparente. */
+    background-color: transparent; /* Establece el color de fondo como transparente para los 
+    elementos con la clase .ColorTransparente. */
+    background: rgba(138, 221, 45, 0); /* Define el color de fondo utilizando la notación 
+    RGBA (Rojo, Verde, Azul, Alfa). En este caso, el color es un verde definido por los valores 
+    RGB (138, 221, 45) con un nivel de transparencia de 0, lo que significa completamente transparente.*/
+}
+
+body{ /* Selecciona el elemento <body>. */
+    margin: 0%; /* Establece el margen del elemento <body> como 0. */
+}
+
+iframe{ /* Selecciona todos los elementos <iframe>. */
+    position: fixed; /* Fija la posición de los elementos <iframe>. */ 
+/* min-width: 100%; min-height: 100%;: Establece el ancho y la altura mínimos de los 
+elementos <iframe> al 100% del tamaño del contenedor padre. */
+    min-width: 100%;
+    min-height: 100%;
+/*top: 50%; left: 50%;: Ubica los elementos <iframe> en el centro tanto horizontal como verticalmente.*/
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);/* Aplica una transformación para mover los elementos 
+    <iframe> hacia atrás (-50%) tanto horizontal como verticalmente, centrando así el contenido. */
+    z-index: -1;/* Establece el índice Z de los elementos <iframe> en -1, colocándolos detrás 
+    de otros elementos en la página. */
+}
+
+.letras{/* Define una clase CSS llamada .letras. */
+    color: white;/* Establece el color del texto en blanco para los elementos con la clase .letras. */
+}
+
+.img{/* Define una clase CSS llamada .img. */
+    display: block;/*Establece el tipo de visualización como bloque para los elementos con la clase .img*/
+    margin: auto;/* Centra horizontalmente los elementos con la clase .img. */
+/* width: 200px; height: 400px;: Establece el ancho y la altura de los elementos con la clase 
+.img en 200 píxeles y 400 píxeles respectivamente. */
+    width: 200px;
+    height: 400px;
+    border-radius: 30px;/* Establece un radio de borde de 30 píxeles para los elementos con la clase 
+    .img, lo que les da esquinas redondeadas. */
+    box-shadow: 1px 1px 2px white, 0 0 1em rgb(208, 237, 19),0 0.2em rgb(208, 237, 19);
+/* Define una sombra para los elementos .img. Tiene tres partes: una sombra más suave en blanco 
+(1px de desplazamiento horizontal y vertical, 2px de radio), una sombra amarilla más pronunciada 
+(0 de desplazamiento horizontal y vertical, 1em de radio) y una sombra verde más pronunciada 
+(0 de desplazamiento horizontal, 0.2em de desplazamiento vertical, 0.2em de radio). */
+    
+}
+
+.puntos{/* Define una clase CSS llamada .puntos. */
+    /* border-style: dotted; border-width: 6px; border-color: 660033;: 
+    Establece el estilo de borde como punteado, el ancho del borde como 6 píxeles y el color del 
+    borde como un tono de púrpura. */
+    border-style: dotted;
+    border-width: 6px;
+    border-color: 660033;
+    background-color: cc3366;/* Establece el color de fondo como un tono de rosa. */
+    font-family: verdana, arial; /* Define la familia de fuentes preferida como Verdana o Arial. */
+    font-size: 15pt;/* Establece el tamaño de la fuente en 15 puntos. */
+    background: transparent;/* Establece el fondo como transparente para los elementos con la clase*/
+    background: rgba(17, 20, 236, 0.377); 
+    /* Define el color de fondo utilizando la notación RGBA. 
+    En este caso, el color es un azul definido por los valores RGB (17, 20, 236) 
+    con un nivel de transparencia de 0.377. */
+}
