@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!--Esta línea declara la versión del documento HTML, en este caso, HTML5. -->
+<html lang="en"><!--Inicia el elemento raíz del documento HTML y especifica el idioma como inglés ("en"). -->
+  <head><!--Inicia la sección de encabezado del documento HTML, que contiene metadatos y 
+    enlaces a recursos externos. -->
+    <meta charset="utf-8" /><!--Define la codificación de caracteres del documento como UTF-8, 
+      que es una codificación de caracteres ampliamente compatible. -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /><!--Especifica cómo se debe ajustar y
+       escalar la vista en dispositivos móviles. -->
+    <title>Formulario</title><!--Define el título de la página que se mostrará en la barra de título del navegador-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    /><!--Enlaza la hoja de estilos de Bootstrap para aplicar estilos predefinidos a la página. -->
+    <link rel="stylesheet" href="./css/form.css"/><!--Enlaza una hoja de estilos local llamada "form.css" 
+      ubicada en la carpeta "CSS" dentro del directorio raíz del proyecto. -->
+    <link rel="icon" href="../IMG/ac_dc.jpeg"/><!--Enlaza el ícono de la página web, que se mostrará en
+       la pestaña del navegador. -->
+  </head><!--Cierra la sección de encabezado del documento HTML. -->
+
+  <body><!--Inicia la sección del cuerpo del documento HTML, que contiene el contenido visible de la página. -->
+
+    <div class="video-container"><!--Inicia un contenedor de video para el fondo de la página. -->
+      <video autoplay muted loop id="video-background">
+          <source src="../VIDEO/fondo.mp4" type="video/mp4">
+          <!-- Otros formatos de video aquí -->
+          Tu navegador no soporta la etiqueta de video.
+      </video>
+  </div><!--Inserta un video que se reproducirá automáticamente,
+    en bucle y sin sonido, como fondo de la página. Se especifica el origen del video y se proporciona un
+    mensaje de respaldo para navegadores que no admiten la etiqueta `<video>`. -->
+         
+      <!-- DENTRO DE AQUI VAS A TRABAJAR -->
+
+      <div
+        class="card ColorTransparente rounded-4 border-0 position-absolute top-50 start-50 translate-middle"
+        style="width: 30rem">
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="text-center">
+              <img
+                src="../IMG/cinnamoroll.png"
+                class="mt-3"
+                style="width: 10rem"
+                alt=""
+                srcset=""
+              /><!--Inicia un contenedor de tarjeta (card) con estilos de Bootstrap y otras clases CSS
+                personalizadas para posicionarla en el centro de la página. -->
+            </div>
+          </div>
+          
+          <div class="col-sm-6">
+            <div class="text-center mt-4">
+              <h1 class="text-center mt-4">Registro</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <h1 class="text-center">ITT2</h1>
+            <h4 class="ms-2 mt-2">Usuario</h4>
+            <input type="text" class="form-control mt-2" name="" id="" />
+            <h4 class="ms-2 mt-2">Contraseña</h4>
+            <input type="password" class="form-control mt-2" name="" id="" />
+            <div class="d-grid gap-2 col-8 mx-auto mt-4">
+              <button class="btn btn-primary" type="button">Ingresar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- DENTRO DE AQUI VAS A TRABAJAR -->
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"
+        ></script><!--Enlaza el script de Bootstrap para agregar funcionalidades interactivas
+          como modales y desplegables. -->
+      </div>
+  </body><!--Cierra la sección del cuerpo del documento HTML. -->
+</html><!--Cierra el elemento raíz del documento HTML. -->

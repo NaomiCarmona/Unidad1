@@ -1,0 +1,66 @@
+.ColorTransparente {  /*Define una clase CSS llamada ColorTransparente. */
+    width: 420px; /*Establece el ancho de los elementos con la clase .ColorTransparente en 420 píxeles. */
+    background: transparent; /*Establece el fondo de los elementos con la clase .ColorTransparente como transparente. */
+    background: rgba(138, 221, 45, 0);/*Define el color de fondo utilizando la notación 
+    RGBA (Red, Green, Blue, Alpha). En este caso, el color es un verde definido por los valores 
+    RGB (138, 221, 45) y un nivel de transparencia de 0, lo que significa completamente transparente. */
+  }
+  
+  body, html { /* Selecciona tanto el elemento <body> como el <html>. */
+      height: 100%;/*Establece la altura de los elementos <body> y <html> al 100% del tamaño del contenedor padre.*/
+      /* Elimina los márgenes y el relleno predeterminados de los elementos <body> y <html>. */
+      margin: 0;
+      padding: 0;
+  }
+  
+  .video-container { /* Define una clase CSS llamada .video-container. */
+      position: fixed;/*Fija la posición del elemento .video-container con respecto a la ventana del navegador. */
+/*top: 0; left: 0;: Ubica el elemento .video-container en la esquina superior izquierda de la ventana del navegador.*/
+      top: 0;
+      left: 0;
+/* width: 100%; height: 100%;: Establece el ancho y la altura del elemento 
+.video-container al 100% del tamaño de la ventana del navegador. */
+      width: 100%;
+      height: 100%;
+      overflow: hidden;/*Oculta cualquier contenido que se desborde del elemento .video-container. */
+      z-index: -1;/* Establece el índice Z del elemento .video-container en -1, 
+      colocándolo detrás de otros elementos en la página. */
+  }
+  
+  #video-background { /* Selecciona un elemento con el ID video-background. */
+      position: absolute; /*Posiciona el elemento #video-background de forma absoluta
+      con respecto a su contenedor principal. */
+/* top: 0; left: 0;: Ubica el elemento #video-background en la esquina superior izquierda de su
+contenedor principal. */
+      top: 0;
+      left: 0;
+/* width: 100%; height: 100%;: Establece el ancho y la altura del elemento #video-background al 100% 
+del tamaño de su contenedor principal. */
+      width: 100%;
+      height: 100%;
+      object-fit: cover;/*Escala el contenido del elemento #video-background para que cubra 
+      todo el área disponible sin distorsionarse. */
+  }
+
+  .row {/* Define una clase CSS llamada .row. */
+    width: 600px;/* Establece el ancho de los elementos con la clase .row en 600 píxeles. */
+    background: transparent;/* Establece el fondo de los elementos con la clase .row como transparente. */
+    border: 2px solid rgba(255, 255, 255, 0.2);/* Define un borde de 2 píxeles sólido con un color 
+    blanco semitransparente para los elementos con la clase .row. */
+    backdrop-filter: blur(20px);/* Aplica un efecto de desenfoque con un radio de 20 píxeles al fondo 
+    del elemento .row y a cualquier contenido detrás de él. */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);/* Agrega una sombra alrededor del elemento .row, 
+    con un desplazamiento horizontal y vertical de 0, un radio de desenfoque de 80 píxeles y 
+    un color negro semitransparente. */
+    color: #fff;/* Establece el color del texto dentro de los elementos .row en blanco (#fff). */
+    border-radius: 10px;/* Define un radio de borde de 10 píxeles para los elementos .row, 
+    lo que hace que tengan esquinas redondeadas. */
+    padding: 30px 40px;/* Establece el relleno de 30 píxeles en la parte superior e inferior y 
+    40 píxeles en los lados izquierdo y derecho de los elementos .row. */
+
+  }
+
+  img{ /* Selecciona todos los elementos de imagen <img> en el documento. */
+    border-radius: 50%;/* Establece un radio de borde de 50% para las imágenes, 
+    lo que hace que tengan una forma circular. */
+  }
