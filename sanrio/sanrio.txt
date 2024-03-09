@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Practica 4</title>
+	</head>
+
+	<body>
+		<center>
+		<H1>SANRIO</H1>
+		<H1 style = "text-aling: center; color: pink; backgroup: white">Personajes de SANRIO</H1>
+		<p>Los más populares</p>
+		</center>
+		
+		<H2>Descubre la magia :3</H2>
+		<center>
+		<H2 style = "text-aling: left; color: white; background: #AFEEEE">CINNAMOROLL</H2>
+		<p>Rollito de canela</p>
+		</center>
+
+		<center>
+		<H3><a title= "puchale play"
+		href="https://youtu.be/NDdPWiH155s?si=yI5-CVE_KdFIvAJ3"><H3><img src= "cinnamoroll.gif" alt="no mijo no jala" 
+style = "width: 35% ; heigth: 35%" /></a></H3>
+		</center>
+
+		<center>
+		<pre>
+		Es un perro pequeño, tímido y regordete, de pelaje blanco, ojos azules, mejillas rosadas, 
+una cola regordeta y rizada que recuerda a un rollo de canela (de ahí su nombre) y orejas 
+largas que le permiten volar
+		</pre>
+		</center>
+		<br/>
+		
+		<center>		
+		<H2 style = "text-aling: left; color: yellow; background: #FF69B4">MY MELODY</H2>
+		<p>Conejito</p>
+		</center>
+
+		<center>
+		<a title = "picale mijo"
+		href="https://youtu.be/B1S4tBiuQt0?si=zC2kF4Fx5-xlrYQk"><H3><img src= "my_melody.gif" alt= "no mi rey aquí no 'ta"
+style = "width: 35% ; heigth: 35%" /></a></H3>
+		</center>
+
+		<center>
+		<pre>
+		Su pasatiempo favorito es hornear galletas con su madre y 
+su comida favorita es el bizcocho de almendras.
+		</pre>
+		</center>
+		<br/>
+
+		<center>
+		<H2 style = "text-aling: left; color: brown; background: yellow">POM POM PURIN</H2>
+		<p>Perro Pudín</p>
+		</center>
+
+		<center>
+		<a title = "sin miedo al éxito"
+		href="https://youtu.be/Xzpf1k-e0q8?si=vbUbN-GqxgLf2d_i"><H3><img src= "purin.gif" alt= "nopi, no hay nada"
+style = "width: 35% ; heigth: 35%"/></a></H3>
+		</center>
+
+		<center>
+		<pre>
+ La comida favorita de Pompompurin es el pudín de su mamá. 
+		</pre>
+		</center>
+		</br>
+
+
+
